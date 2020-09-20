@@ -22,5 +22,5 @@ fetch("http://localhost:3000/users", {
   document.body.innerHTML = error.message
   })
 }
-//document.body.innerHTML
+
 
