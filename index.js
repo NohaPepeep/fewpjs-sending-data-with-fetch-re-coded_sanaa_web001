@@ -23,4 +23,4 @@ fetch("http://localhost:3000/users", {
   })
 }
 //document.body.innerHTML
-submitData("nn","sss")
+
