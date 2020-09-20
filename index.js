@@ -19,8 +19,7 @@ fetch("http://localhost:3000/users", {
     console.log(object["id"])
   })
 .catch(function(error) {
-  let a =document.createTextNode(error.message);
-    document.body.appendChild(a);
+  document.body.innerHTML = error.message
   })
 }
 //document.body.innerHTML
