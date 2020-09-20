@@ -8,8 +8,8 @@ fetch("http://localhost:3000/users", {
     "Accept": "application/json"
   },
   body: JSON.stringify({
-    name : user,
-    email : email
+    name ,
+    email
   })
 })
 .then(function(response) {
