@@ -16,7 +16,7 @@ fetch("http://localhost:3000/users", {
     return response.json();
   })
   .then(function(object) {
-    console.log(object["id"])
+    document.body.innerHTML = object[ "id" ]
   })
 .catch(function(error) {
   document.body.innerHTML = error.message
